@@ -42,11 +42,11 @@ body {
 }
 
 #text-container {
-  margin: 36px 38px 0 32px;
+  margin: 36px 38px 8px 32px;
 }
 
 #byline-container {
-  padding: 17px 32px 22px;
+  padding: 9px 32px 22px;
   display: flex;
   align-items: center;
 }
@@ -77,7 +77,6 @@ body {
 #social-media-container {
   background-color: var(--verydarkgrayishblue);
   padding: 15px 32px 15px;
-  border-top: 8px solid white;
   display: flex;
   gap: 17px;
   align-items: center;

@@ -31,6 +31,7 @@
 
   #text-container {
     margin-right: 45px;
+    margin-bottom: 0;
   }
 
   #text-container p {
@@ -38,6 +39,7 @@
   }
 
   #byline-container {
-    padding: 7px 32px 30px;
+    padding-top: 7px;
+    padding-bottom: 30px;
   }
 }
