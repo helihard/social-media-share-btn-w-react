@@ -1,0 +1,47 @@
+h1 {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  color: var(--verydarkgrayishblue);
+}
+
+#text-container p {
+  margin: 12px 0;
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+  color: var(--desaturateddarkblue);
+}
+
+#byline-container strong {
+  color: var(--verydarkgrayishblue);
+  font-weight: 700;
+}
+
+#byline-container p {
+  margin: 0;
+  font-size: 12.4px;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+  color: var(--grayishblue);
+}
+
+#social-media-container span,
+#share-modal span {
+  color: var(--grayishblue);
+  font-variant: small-caps;
+  font-size: 18px;
+  letter-spacing: 5.5px;
+  position: relative;
+  bottom: 2px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

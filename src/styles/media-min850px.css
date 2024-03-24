@@ -1,0 +1,43 @@
+@media (min-width: 850px) {
+  #root {
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  #container {
+    width: auto;
+    max-width: 670px;
+    grid-template-columns: 250px 1fr;
+    overflow: visible;
+  }
+
+  #main-img-container {
+    grid-row-end: span 2;
+    width: 250px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  #drawers {
+    width: 123%;
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  #text-container {
+    margin-right: 45px;
+  }
+
+  #text-container p {
+    font-size: 12.4px;
+  }
+
+  #byline-container {
+    padding: 7px 32px 30px;
+  }
+}
